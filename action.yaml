@@ -1,0 +1,10 @@
+name: 'GitHub Languages Graph'
+description: 'Fetches languages from all user repositories, generates a graph, and updates README'
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
