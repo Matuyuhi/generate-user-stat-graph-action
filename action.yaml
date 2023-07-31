@@ -1,5 +1,9 @@
 name: 'GitHub Languages Graph'
-description: 'Fetches languages from all user repositories, generates a graph, and updates README'
+description: 'Fetches languages from all user repositories, generates a graph'
+author: 'Matuyuhi'
+branding:
+  icon: activity
+  color: green
 inputs:
   github-token:
     description: 'GitHub token'
