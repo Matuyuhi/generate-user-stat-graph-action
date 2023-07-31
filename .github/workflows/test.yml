@@ -9,6 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: GitHub Languages Graph
-    uses: Matuyuhi/generate-user-stat-graph-action@v0.2
+      uses: Matuyuhi/generate-user-stat-graph-action@v0.2
       with:
         token: ${{ secrets.TOKEN }}
